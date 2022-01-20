@@ -1,6 +1,6 @@
 def most_frequent(string):
     d = dict()
-    for i in sorted(string):
+    for i in sorted(string,reverse=True):
         if i not in d:
             d[i] = 1
         else:
